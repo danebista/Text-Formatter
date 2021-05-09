@@ -12,5 +12,5 @@ Left align
 <br />
 &nbsp;&nbsp;Center align
 <br />
-&nbsp;&nbsp;&nbsp;&nbsp;Right align
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Right align
 <br />
