@@ -1,9 +1,9 @@
-function updateText(){
+updateText=()=>{
     document.getElementById("text-output").innerText=
     document.getElementById('text-input').value
 }
 
-function makeBold(elem){
+makeBold=(elem)=>{
 
     elem.classList.toggle("active");
     elem.classList.remove("btn-light");
@@ -20,7 +20,7 @@ function makeBold(elem){
     
 }
 
-function makeItalic(elem) {
+makeItalic=(elem)=> {
 
     elem.classList.toggle("active");
     elem.classList.remove("btn-light");
@@ -36,7 +36,7 @@ function makeItalic(elem) {
     }
 }
 
-function makeUnderlined(elem) {
+makeUnderlined=(elem)=> {
 
     elem.classList.toggle("active");
     elem.classList.remove("btn-light");
@@ -52,7 +52,7 @@ function makeUnderlined(elem) {
     }
 }
 
-function textAlign(elem, alignType){
+textAlign=(elem, alignType)=>{
 
     if (elem.classList.contains('active')){
         document.getElementById('text-output').style.textAlign=null;
@@ -67,12 +67,11 @@ function textAlign(elem, alignType){
     }
     
     let buttonList=document.getElementsByClassName('align')
-    for(let i=0; i<buttonList.length;i++){
-        if (elem== buttonList[i]) continue;
+    for(let buttons of buttonList){
+        if (elem== buttons) continue;
 
-        buttonList[i].classList.remove('active')
-        buttonList[i].classList.remove('btn-dark')
-        buttonList[i].classList.add('btn-light')
+        buttons.classList.remove('active')
+        buttons.classList.remove('btn-dark')
+        buttons.classList.add('btn-light')
     }
-   
 }
