@@ -1,0 +1,36 @@
+#text-output{
+    min-height: 200px;
+    border-radius: 3px;
+    padding: 10px;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+#text-input{
+    min-height: 200px;
+}
+
+.editor .col{
+    min-width: 50%;
+    flex-basis: 50%;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic {
+    font-style:italic;
+}
+
+.underline {
+    text-decoration:underline;
+}
+
+.btn-dark{
+    background-color: #87cef2 !important;
+}
+
+.text-primary {
+    color: #87cef2 !important;
+}
