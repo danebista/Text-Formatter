@@ -2,11 +2,11 @@
 
 ## This is the simplest of text formatters capable of doing the following:
 <br />
-**BOLD**
+** BOLD **
 <br />
-*ITALIC*
+* ITALIC *
 <br />
-~~UNDERLINE~~ (Markdown doesn't support underline to avoid confusion with hyperlink)
+~~ UNDERLINE ~~ (Markdown doesn't support underline to avoid confusion with hyperlink)
 <br />
 Left align
 <br />
