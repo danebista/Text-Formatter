@@ -10,7 +10,7 @@
 <br />
 Left align
 <br />
-      Center align
+&nbsp;&nbsp;Center align
 <br />
-                  Right align
+&nbsp;&nbsp;&nbsp;&nbsp;Right align
 <br />
