@@ -15,6 +15,6 @@ Left align
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Right align
 <br />
 
-####Here is the link:
+#### Here is the link:
 <br/>
 https://danebista.github.io/Text-Formatter/
